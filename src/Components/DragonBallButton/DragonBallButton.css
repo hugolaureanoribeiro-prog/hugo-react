@@ -1,0 +1,17 @@
+.DragonBallButton{
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 10px;
+    background-color: black;
+    
+
+    &:hover{
+        cursor: pointer;
+        border: 1px solid white;
+        background-color: black;
+    }
+}
+
+
+
+

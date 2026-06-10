@@ -1,45 +1,46 @@
+import dragonballs from '../../Data/dragonballs'
 import './DragonBallCard.css'
 
-function DragonBallCard({nome, caminhoImagem, estagio, transformado, transformarDragonBall}){
+function DragonBallCard({nome, imagem, estagio, transformado, transformarDragonBall, id, listaDragonBalls, setListaDragonBalls, transformacao}){
   
   function definirAura(){
 
-  if(nome.includes("VegetaSSJBlue")){
+  if(nome.includes("Vegeta Super Saiyajin Blue")){
     return "aura-blue"
   }
 
-  if(nome.includes("VegetaSSJGod")){
+  if(nome.includes("Vegeta Super Saiyajin God")){
     return "aura-god"
   }
 
-  if(nome.includes("VegetaUltraEgo")){
+  if(nome.includes("Vegeta Ultra Ego")){
     return "aura-ego"
   }
 
-  if(nome.includes("GohanBeast")){
+  if(nome.includes("Gohan Beast")){
     return "aura-beast"
   }
 
-  if(nome.includes("GokuBlackSSJRose")){
+  if(nome.includes("Super Saiyajin Rose")){
     return "aura-rose"
   }
 
-  if(nome.includes("BrolySSJL")){
+  if(nome.includes("Lendário Super Saiyajin")){
     return "aura-broly"
   }
 
   if(
-  nome.includes("VegetaSSJ") ||
-  nome.includes("VegetaSSJ2") ||
-  nome.includes("VegetaSSJ3") ||
-  nome.includes("GohanSSJ") ||
-  nome.includes("BrolySSJ") ||
-  nome.includes("GoldenFreeza")
+  nome.includes("Vegeta Super Saiyajin") ||
+  nome.includes("Vegeta Super Saiyajin 2") ||
+  nome.includes("Vegeta Super Saiyajin 3") ||
+  nome.includes("Gohan Super Saiyajin") ||
+  nome.includes("Broly Super Saiyajin") ||
+  nome.includes("Golden Freeza")
 ){
   return "aura-gold"
 }
 
-  if(nome.includes("BlackFreeza")){
+  if(nome.includes("Black Freeza")){
     return "aura-black"
   }
 
@@ -50,7 +51,7 @@ function DragonBallCard({nome, caminhoImagem, estagio, transformado, transformar
          <div className='CardDragonBall'>
             
             <img 
-            src={caminhoImagem} 
+            src={imagem} 
             alt={nome} title={nome}
             onClick={transformarDragonBall}
             className={`dragonballImagem ${definirAura()}`}

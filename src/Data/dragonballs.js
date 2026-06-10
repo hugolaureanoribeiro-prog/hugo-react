@@ -21,107 +21,145 @@ import freezabaseImagem from '../assets/freezabase.png';
 import goldenfreezaImagem from '../assets/goldenfreeza.png';
 import blackfreezaImagem from '../assets/blackfreeza.png';
 
-const dragonballs = {
+const dragonballs = [
 
-    Vegeta:{
+    {
+        
+        nome: "Vegeta",
+        transformacao:"Vegeta Super Saiyajin",
         id: 1,
-        transformacao:"VegetaSSJ",
+        estagio:0,
         imagem: vegetabaseImagem
     },
-    VegetaSSJ :{
+    {
+        
+        nome: "Vegeta Super Saiyajin",
+        transformacao:"Vegeta Super Saiyajin 2",
         id: 2,
-        transformacao:"VegetaSSJ2",
+        estagio: 1,
         imagem: vegetassj1Imagem
     },
-    VegetaSSJ2:{
+    {
         id: 3,
-        transformacao:"VegetaSSJ3",
+        nome: "Vegeta Super Saiyajin 2",
+        transformacao:"Vegeta Super Saiyajin 3",
+        estagio: 2,
         imagem: vegetassj2Imagem
     },
-    VegetaSSJ3:{
+   {
         id: 4,
-        transformacao:"VegetaSSJBlue",
+        nome: "Vegeta Super Saiyajin 3",
+        transformacao:"Vegeta Super Saiyajin Blue",
+        estagio:3,
         imagem: vegetassj3Imagem
     },
-    VegetaSSJBlue:{
+    {
         id: 5,
-        transformacao:"VegetaSSJGod",
+        nome: "Vegeta Super Saiyajin Blue",
+        transformacao:"Vegeta Super Saiyajin God",
+        estagio:4,
         imagem: vegetassjblueImagem
     },
-    VegetaSSJGod:{
+    {
         id: 6,
-        transformacao:"VegetaUltraEgo",
+        nome: "Vegeta Super Saiyajin God",
+        transformacao:"Vegeta Ultra Ego",
+        estagio:5,
         imagem: vegetassjgodImagem
     },
-    VegetaUltraEgo:{
+    {
         id: 7,
+        nome: "Vegeta Ultra Ego",
         transformacao: null,
+        estagio:6,
         imagem: vegetaultraegoImagem
     },
 
 
-    Gohan:{
+    {
         id: 8,
-        transformacao:"GohanSSJ",
+        nome: "Gohan",
+        transformacao:"Gohan Super Saiyajin",
+        estagio:0,
         imagem: gohanbaseImagem
     },
-    GohanSSJ:{
+    {
         id: 9,
-        transformacao:"GohanBeast",
+        nome: "Gohan Super Saiyajin",
+        transformacao:"Gohan Beast",
+        estagio:1,
         imagem: gohanssjImagem
     },
-    GohanBeast:{
+    {
         id: 10,
+        nome: "Gohan Beast",
         transformacao: null,
+        estagio:2,
         imagem: gohanbeastImagem
     },
 
 
-    GokuBlack:{
+    {
         id: 11,
-        transformacao:"GokuBlackSSJRose",
+        nome: "Goku Black",
+        transformacao:"Super Saiyajin Rose",
+        estagio:0,
         imagem: blackgokubaseImagem
     },
-    GokuBlackSSJRose:{
+    {
         id: 12,
+        nome: "Super Saiyajin Rose",
         transformacao: null,
+        estagio:1,
         imagem: blackssjroseImagem
     },
 
 
-    Broly:{
+    {
         id: 13,
-        transformacao:"BrolySSJ",
+        nome: "Broly",
+        transformacao:"Broly Super Saiyajin",
+        estagio:0,
         imagem: brolyImagem
     },
-    BrolySSJ:{
+    {
         id: 14,
-        transformacao:"BrolySSJL",
+        nome: "Broly Super Saiyajin",
+        transformacao:"Lendário Super Saiyajin ",
+        estagio:1,
         imagem: brolyssjImagem
     },
-    BrolySSJL:{
+    {
         id: 15,
+        nome: "Lendário Super Saiyajin ",
         transformacao: null,
+        estagio:2,
         imagem: aurabrolyssjlImagem
     },
 
 
-    Freeza:{
+    {
         id: 16,
-        transformacao:"GoldenFreeza",
+        nome: "Freeza",
+        transformacao:"Golden Freeza",
+        estagio:0,
         imagem: freezabaseImagem
     },
-    GoldenFreeza:{
+    {
         id: 17,
-        transformacao: "BlackFreeza",
+        nome: "Golden Freeza",
+        transformacao: "Black Freeza",
+        estagio:1,
         imagem: goldenfreezaImagem
     },
-    BlackFreeza:{
+    {
         id: 18,
+        nome: "Black Freeza",
         transformacao: null,
+        estagio:2,
         imagem: blackfreezaImagem
     }
 
-};
+];
 
 export default dragonballs

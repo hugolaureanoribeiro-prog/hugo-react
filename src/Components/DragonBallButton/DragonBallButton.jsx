@@ -5,7 +5,7 @@ function DragonBallButton({título='Button', cor='white', corDaLetra='black'}){
         <button 
         className="dragonballButton"
         style={{backgroundColor: cor, color: corDaLetra}}>
-         {título}
+         {título.id}
         </button>
     )
 }

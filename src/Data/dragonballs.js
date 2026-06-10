@@ -24,82 +24,100 @@ import blackfreezaImagem from '../assets/blackfreeza.png';
 const dragonballs = {
 
     Vegeta:{
+        id: 1,
         transformacao:"VegetaSSJ",
         imagem: vegetabaseImagem
     },
     VegetaSSJ :{
+        id: 2,
         transformacao:"VegetaSSJ2",
         imagem: vegetassj1Imagem
     },
     VegetaSSJ2:{
+        id: 3,
         transformacao:"VegetaSSJ3",
         imagem: vegetassj2Imagem
     },
     VegetaSSJ3:{
+        id: 4,
         transformacao:"VegetaSSJBlue",
         imagem: vegetassj3Imagem
     },
     VegetaSSJBlue:{
+        id: 5,
         transformacao:"VegetaSSJGod",
         imagem: vegetassjblueImagem
     },
     VegetaSSJGod:{
+        id: 6,
         transformacao:"VegetaUltraEgo",
         imagem: vegetassjgodImagem
     },
     VegetaUltraEgo:{
+        id: 7,
         transformacao: null,
         imagem: vegetaultraegoImagem
     },
 
 
     Gohan:{
+        id: 8,
         transformacao:"GohanSSJ",
         imagem: gohanbaseImagem
     },
     GohanSSJ:{
+        id: 9,
         transformacao:"GohanBeast",
         imagem: gohanssjImagem
     },
     GohanBeast:{
+        id: 10,
         transformacao: null,
         imagem: gohanbeastImagem
     },
 
 
     GokuBlack:{
+        id: 11,
         transformacao:"GokuBlackSSJRose",
         imagem: blackgokubaseImagem
     },
     GokuBlackSSJRose:{
+        id: 12,
         transformacao: null,
         imagem: blackssjroseImagem
     },
 
 
     Broly:{
+        id: 13,
         transformacao:"BrolySSJ",
         imagem: brolyImagem
     },
     BrolySSJ:{
+        id: 14,
         transformacao:"BrolySSJL",
         imagem: brolyssjImagem
     },
     BrolySSJL:{
+        id: 15,
         transformacao: null,
         imagem: aurabrolyssjlImagem
     },
 
 
     Freeza:{
+        id: 16,
         transformacao:"GoldenFreeza",
         imagem: freezabaseImagem
     },
     GoldenFreeza:{
+        id: 17,
         transformacao: "BlackFreeza",
         imagem: goldenfreezaImagem
     },
     BlackFreeza:{
+        id: 18,
         transformacao: null,
         imagem: blackfreezaImagem
     }

@@ -42,7 +42,7 @@ function Home() {
     <>
       <h1>Melhores personagens de Dragon Ball</h1>
       
-      <h2>Transformados: {qtdTransformados}</h2>
+      <h2>Guerreiros Transformados: {qtdTransformados}</h2>
 
       <section id="center">
         {listaDragonBalls.map((dragonball) => (
